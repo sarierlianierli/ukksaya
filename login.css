@@ -1,0 +1,78 @@
+body{
+	background: linear-gradient(45deg, #e8effd 0%, lightblue 100%);
+	box-sizing: border-box;
+	font-family: serif;
+}
+.row {
+	border: 1px solid #131517;
+	width: 299px;
+	border-radius: 10px;
+	margin:auto;
+	padding: 10px 35px;
+	position: relative;
+	margin-top: 100px;
+}
+
+.form {
+	width: 100%;
+}
+
+.row .form h1 {
+	text-align: center;
+	color: #131517;
+	padding: 10px;
+}
+
+.row .form .form-select, input {
+	width: 100%;
+	outline: none;
+	border: none;
+	background: none;
+	border-bottom: 1px solid lightgray;
+	padding: 10px;
+	margin-bottom: 25px;
+	font-size: 18px;
+	text-align: center;
+	align-items: center;
+	font-family: "Times New Roman";
+	color: lightgray;
+}
+
+.row .form .form-select, input:hover {
+	border-bottom: 1px solid darkgray;
+	color: #131517;
+	text-align: center;
+}
+
+.row .form .btn {
+	margin: 10px auto;
+	width: 100%;
+	text-align: center;
+	height: 35px;
+	border-radius: 13px;
+	border: none;
+	outline: none;
+	background: linear-gradient(to right, aqua, purple);
+	color: #fff;
+	font-size: 18px;
+}
+
+.row .form .btn:hover {
+	background: linear-gradient(to left, aqua, purple);
+	transition: 1s;
+	cursor: pointer;
+}
+
+.row .form p {
+	text-align: center;
+	color: #131517;
+}
+
+.row .form p a {
+	text-decoration: none;
+	color: #131517;
+}
+
+.row .form p a:hover {
+	color: darkblue;
+}
